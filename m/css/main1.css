@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+#wrap{
+    margin: 0 auto;
+}
+ 
+
+/* top */
+#top{
+    height: 65px;
+    background-color: #fff;
+}
+
+/* 메뉴 */
+.menu{
+    position: absolute;
+    top: 20px;
+    left: 3%;
+}
+
+
+
+/* 로고 */
+.logo{
+}
+.logo a{
+    
+}
+.logo a img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+
+
+/* 전화 */
+.call{
+    position: absolute;
+    top: 18px;
+    right: 3%;
+}
+
+
+/* 메인배너 */
+.visual{}
+.visual .visual_b{
+    position: relative;
+}
+.visual .visual_b a{}
+.visual .visual_b a .visual_text{ 
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.visual .visual_b a .visual_text h2{color: #fff;}
+.visual .visual_b a .visual_text h2 span{ color: #ffb400;}
+.visual .visual_b a .visual_text p{color: #fff;}
+.visual .visual_b a img{
+    min-width: 100%;
+}
+
